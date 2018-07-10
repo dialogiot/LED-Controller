@@ -9,6 +9,8 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
 * Male-female jumper wires
 * Breadboard
 
+![Hardware components needed](/images/components.PNG)
+
 
 ### Create your developer account at https://portal.iot.ideamart.io
 
@@ -34,3 +36,9 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  
  
  * Also change the **username** & **password** under **WiFi Credentials** to your own WiFi username & password (Home router/Mobile hotspot)
+ 
+ 
+ ## Connect your circuit as shown below
+
+![Circuit Diagram](/images/circuit_diagram.png)
+
