@@ -16,3 +16,12 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  1. Enter the required parameters as follows and click **Save**
  1. Once you saved, your new device will be visible under the **Devices** tab as shown below 
  1. Click on your new device and take note of the **MAC Address** which will be needed later in this tutorial
+
+## Let's modify the device firmware(Arduino Code) according to your device properties
+ * Download the **LED_Controller.zip** and extract it to your preferred location
+ * Open the **.ino** file inside the folder named **LED_Controller**
+ * The code has 3 differnt parts namely **LED_controller, main, your_actions_events**. You have to modify only the **LED_Controller** to sucessfully control your **LED**
+ * Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties
+ 
+ 
+ * Also change the **username** & **password** under **WiFi Credentials** to your own WiFi username & password (Home router/Mobile hotspot)
