@@ -5,7 +5,7 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
 * NodeMCU
 * Micro USB cable
 * LED
-* 330Ω resistor/a resistor with similar resistance
+* 330Ω resistor
 * Male-female jumper wires
 * Breadboard
 
@@ -23,12 +23,33 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
    1. Click on **Device Onboarding(json)** under **Device Management**
    1. Select **Generic_brand_xxx** under **Device Definitions**
     1. Choose MQTT from the dropdown menu under **Connection Method** & click **Save**
-    1. Under click **Add Action** under **Action** and create **ON** & **OFF** actions as below
+  
+<p align="center">
+  <img width="700" src="/images/DeviceConf.png">
+</p>
+
+    1. Click **Add Action** under **Action** create **ON**,**OFF** actions as below & then click **Save**
+  
+<p align="center">
+  <img width="700" src="/images/on.PNG">
+</p>
+
+<p align="center">
+  <img width="700" src="/images/off.PNG">
+</p>  
 
 1. Now go to **Device Operation** under **Device Management** and click **Add Device**
  1. Enter the required parameters as follows and click **Save**
- 1. Once you saved, your new device will be visible under the **Devices** tab as shown below 
- 1. Click on your new device and take note of the **MAC Address** which will be needed later in this tutorial
+ 
+<p align="center">
+  <img width="350" src="/images/SaveDevice.png">
+</p>  
+
+ 1. Once sucessfully saved, your new device will be visible under the **Devices** tab as shown below 
+ 
+<p align="center">
+  <img width="700" src="/images/DeviceSaved.png">
+</p>  
 
 ### Let's modify the device firmware(Arduino Code) according to your device properties
  * Download the **LED_Controller.zip** and extract it to your preferred location
@@ -41,6 +62,7 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  
  
  ## Connect your circuit as shown below
-
-![Circuit Diagram](/images/circuit_diagram.png)
+<p align="center">
+  <img width="500" src="/images/circuit_diagram.png">
+</p>
 
