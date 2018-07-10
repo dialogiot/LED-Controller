@@ -24,13 +24,8 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
 1. Create your device configuration in the developer portal
    1. Click on **Device Onboarding(json)** under **Device Management**
    1. Select **Generic_brand_xxx** under **Device Definitions**
-    1. Choose MQTT from the dropdown menu under **Connection Method** & click **Save**
-  
-<p align="center">
-  <img width="700" src="/images/DeviceConf.png">
-</p>
-
-    1. Click **Add Action** under **Action** create **ON**,**OFF** actions as below & then click **Save**
+    1. Choose MQTT from the dropdown menu under **Connection Method** & click **Save**  <p align="center"><img width="700" src="/images/DeviceConf.png"></p>
+    1. Click **Add Action** under **Action** create **ON** , **OFF** actions as below & then click **Save**
   
 <p align="center">
   <img width="700" src="/images/on.PNG">
