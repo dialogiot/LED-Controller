@@ -1,3 +1,4 @@
+<img align="right" src="images/led.gif">
 # LED Controller
 A simple tutorial on how to control an LED using Dialog IoT Platform
 
