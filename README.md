@@ -1,7 +1,16 @@
 # LED Controller
 A simple tutorial on how to control an LED using Dialog IoT Platform
 
-## Let's create our first developer account at https://portal.iot.ideamart.io
+## Get your gear
+* NodeMCU
+* Micro USB cable
+* LED
+* 330Ω resistor/a resistor with similar resistance
+* Male-female jumper wires
+* Breadboard
+
+
+### Create your developer account at https://portal.iot.ideamart.io
 
   * Once you have completed the registration process, Please click the email confirmation link which is sent to your registered email address & then contact one of our ideamart admins to activate your account.
   * After the approval, login to your account and follow the steps below
@@ -17,7 +26,7 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  1. Once you saved, your new device will be visible under the **Devices** tab as shown below 
  1. Click on your new device and take note of the **MAC Address** which will be needed later in this tutorial
 
-## Let's modify the device firmware(Arduino Code) according to your device properties
+### Let's modify the device firmware(Arduino Code) according to your device properties
  * Download the **LED_Controller.zip** and extract it to your preferred location
  * Open the **.ino** file inside the folder named **LED_Controller**
  * The code has 3 differnt parts namely **LED_controller, main, your_actions_events**. You have to modify only the **LED_Controller** to sucessfully control your **LED**
