@@ -40,5 +40,5 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  
  ## Connect your circuit as shown below
 
-![Circuit Diagram](/images/circuit_diagram.png)
+![Circuit Diagram](/images/circuit_diagram.png | width = 2)
 
