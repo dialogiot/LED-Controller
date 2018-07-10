@@ -50,7 +50,7 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  1. Once sucessfully saved, your new device will be visible under the **Devices** tab as shown below 
  
 <p align="center">
-  <img width="700" src="/images/DeviceSaved.png">
+  <img width="700" src="/images/DeviceSaveds.png">
 </p>  
 
 ### Let's modify the device firmware(Arduino Code) according to your device properties
