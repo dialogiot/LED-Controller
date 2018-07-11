@@ -84,3 +84,11 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
 
 You can also open the **Arduino Serial Monitor** in order to debug and check the device status
 
+Follow these steps to execute the **ON & OFF** actions
+
+  * Go to your developer account -> Device Operation -> Devices  & select your device
+  * Select your desired action from the drop down menu under **Device Actions** & click **Execute**
+  <p align="center"><img width="500" src="/images/deviceop.png"></p>
+
+  
+
