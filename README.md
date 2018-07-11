@@ -52,6 +52,10 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  * Download the **LED_Controller.zip** and extract it to your preferred location
  * Open the **.ino** file inside the folder named **LED_Controller**
  * The code has 3 differnt parts namely **LED_controller, main, your_actions_events**. You have to modify only the **LED_Controller** to sucessfully control your **LED**
+ <p align="center">
+  <img width="500" src="/images/3parts.PNG">
+</p>
+
  * Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties
  
  
