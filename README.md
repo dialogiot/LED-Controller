@@ -58,7 +58,7 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  1. Follow [this](https://www.youtube.com/watch?v=GUTpaY1YaXo) youtube tutorial & install the **ArduinoJson** library
  1. Similarly install **PubSubClient** library from the **Library Manager** <p align="center"><img width="500" src="/images/pubsub.PNG"></p>
  
-     **Once all the above process been completed we are ready to program our NodeMCU with Arduino IDE.** :+1:
+     **Once all the above processes have been completed we are ready to program our NodeMCU with Arduino IDE.** :+1:
 
  1. Download the **LED_Controller.zip** and extract it to your preferred location
  1. Open the **.ino** file inside the folder named **LED_Controller**
