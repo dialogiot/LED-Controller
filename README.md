@@ -65,8 +65,9 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  1. The code has 3 differnt parts namely **LED_controller, main, your_actions_events**. You have to modify only the **LED_Controller** to sucessfully control your **LED**
  <p align="center"><img width="500" src="/images/3tabs1.png"></p>
 
- 1. Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties
+ 1. Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties [**use only lowercase letters**]
  1. Also change the **username** & **password** under **WiFi Credentials** to your own WiFi username & password (Home router/Mobile hotspot)
+   *See the example below for a clear understanding:* <p align="center"><img width="500" src="/images/device.png"></p>
   
  ## Connecting the LED to NodeMCU
  
@@ -81,4 +82,5 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
 
 **After successful upload you will see 2 LED blinks to indicate that your LED is now connected to the *Dialog IoT platform* and ready to receive your commands**
 
+You can also open the **Arduino Serial Monitor** in order to debug and check the device status
 
