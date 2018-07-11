@@ -49,19 +49,25 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
 </p>  
 
 ### Let's modify the device firmware(Arduino Code) according to your device properties
- * Download the **LED_Controller.zip** and extract it to your preferred location
- * Open the **.ino** file inside the folder named **LED_Controller**
- * The code has 3 differnt parts namely **LED_controller, main, your_actions_events**. You have to modify only the **LED_Controller** to sucessfully control your **LED**
+ 1. If you haven't setup the ESP8266 environment to your Arduino IDE, then follow these steps, otherwise skip & continue from to **step 2**
+    * Firstly open the Arduino IDE
+    * Go to files and click on the preference in the Arduino IDE<p align="center"><img width="500" src="/images/addBoards.PNG"></p>
+    * Copy the below URL to the **Additional boards Manager URLs** & click OK to close the preference Tab *http://arduino.esp8266.com/stable/package_esp8266com_index.json*
+    * After completing the above steps , go to *Tools* -> *board*, and then select *board Manager* <p align="center"><img width="500" src="/images/espcommunity.PNG"></p>
+    * Navigate to '**esp8266 by esp8266 community**' and install it.
+    
+#### Once all the above process been completed we are read to program our esp8266 with Arduino IDE.
+
+ 1. Download the **LED_Controller.zip** and extract it to your preferred location
+ 1. Open the **.ino** file inside the folder named **LED_Controller**
+ 1. The code has 3 differnt parts namely **LED_controller, main, your_actions_events**. You have to modify only the **LED_Controller** to sucessfully control your **LED**
  <p align="center">
   <img width="500" src="/images/3parts.PNG">
 </p>
 
- * Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties
- 
- 
- * Also change the **username** & **password** under **WiFi Credentials** to your own WiFi username & password (Home router/Mobile hotspot)
- 
- 
+ 1. Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties
+ 1. Also change the **username** & **password** under **WiFi Credentials** to your own WiFi username & password (Home router/Mobile hotspot)
+  
  ## Connect your circuit as shown below
 <p align="center">
   <img width="500" src="/images/circuit_diagram.png">
