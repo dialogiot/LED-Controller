@@ -55,10 +55,10 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
     * After completing the above steps , go to *Tools* -> *board*, and then select *board Manager* <p align="center"><img width="500" src="/images/espcommunity.PNG"></p>
     * Navigate to '**esp8266 by esp8266 community**' and install it.   
     
- 1. Follow [this](https://arduinojson.org/v5/doc/installation/) youtube tutorial & install the **ArduinoJson** library
+ 1. Follow [this](https://www.youtube.com/watch?v=GUTpaY1YaXo) youtube tutorial & install the **ArduinoJson** library
  1. Similarly install **PubSubClient** library from the **Library Manager** <p align="center"><img width="500" src="/images/pubsub.PNG"></p>
  
-     **Once all the above process been completed we are ready to program our NodeMCU with Arduino IDE.**
+     **Once all the above process been completed we are ready to program our NodeMCU with Arduino IDE.** :+1:
 
  1. Download the **LED_Controller.zip** and extract it to your preferred location
  1. Open the **.ino** file inside the folder named **LED_Controller**
@@ -68,8 +68,15 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
  1. Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties
  1. Also change the **username** & **password** under **WiFi Credentials** to your own WiFi username & password (Home router/Mobile hotspot)
   
- ## Connect your circuit as shown below
-<p align="center">
-  <img width="500" src="/images/circuit_diagram.png">
-</p>
+ ## Connecting the LED to NodeMCU
+ 
+ * Connect the anode (+ve) of the LED to 330Ω resistor on the breadboard
+ * Using a jumper wire, connect the free terminal of the resistor to pin D1 of the NodeMCU
+ * Finally connect the cathode (-ve) of the LED to GND (ground) of the NodCMU
+
+### Your final circuit should look similar to the below circuit diagram 
+<p align="center"><img width="500" src="/images/circuit_diagram.png"></p>
+
+*Now connect the NodeMCUto your PC using the USB cable and before uploading make sure you have selected the correct **COM PORT** and other settings as below* <p align="center"><img width="500" src="/images/tools.PNG"></p>
+
 
