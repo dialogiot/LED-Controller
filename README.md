@@ -67,7 +67,7 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
 
  1. Please change the values of **BRAND,TYPE,VERSION,MAC_ADDRESS** under **Device Details** to your device's properties [**use only lowercase letters**]
  1. Also change the **username** & **password** under **WiFi Credentials** to your own WiFi username & password (Home router/Mobile hotspot)
-   *See the example below for a clear understanding:* <p align="center"><img width="500" src="/images/device.png"></p>
+   *See the example below for a clear understanding:* <p align="center"><img width="500" src="/images/devicepro.PNG"></p>
   
  ## Connecting the LED to NodeMCU
  
