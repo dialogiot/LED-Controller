@@ -55,7 +55,7 @@ A simple tutorial on how to control an LED using Dialog IoT Platform
     * After completing the above steps , go to *Tools* -> *board*, and then select *board Manager* <p align="center"><img width="500" src="/images/espcommunity.PNG"></p>
     * Navigate to '**esp8266 by esp8266 community**' and install it.   
     
- 1. Follow [this](https://www.youtube.com/watch?v=GUTpaY1YaXo) youtube tutorial & install the **ArduinoJson** library
+ 1. Follow [this](https://www.youtube.com/watch?v=GUTpaY1YaXo) youtube tutorial & install the **ArduinoJson** library stable version **5.13.2**
  1. Similarly install **PubSubClient** library from the **Library Manager** <p align="center"><img width="500" src="/images/pubsub.PNG"></p>
  
      **Once all the above processes have been completed we are ready to program our NodeMCU with Arduino IDE.** :+1:
